@@ -1,4 +1,7 @@
+'use client';
+
 import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa"; // Importação dos ícones
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,12 +15,12 @@ const Header = () => {
           aria-label="Abrir menu"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          <i className={`fas ${menuOpen ? "fa-times" : "fa-bars"}`}></i>
+          {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />} {/* Substituição dos ícones */}
         </button>
         <nav
           className={`${
             menuOpen ? "block" : "hidden"
-          } md:block absolute md:static top-full left-0 w-full md:w-auto bg-gray-800 md:bg-transparent`}
+          } md:block absolute md:static top-16 left-0 w-full md:w-auto bg-gray-800 md:bg-transparent z-10`} // Alterado top para top-16
         >
           <ul className="flex flex-col md:flex-row md:space-x-4">
             <li>
