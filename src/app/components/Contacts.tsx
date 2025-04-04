@@ -7,7 +7,7 @@ const Contact = () => {
         <h2 className="text-3xl font-bold text-center mb-8">Entre em Contato</h2>
         
         {/* Formulário de Contato */}
-        <form className="max-w-xl mx-auto mb-8">
+        <form className="max-w-xl mx-auto mb-8 px-4 sm:px-0">
           <div className="mb-4">
             <label htmlFor="name" className="block text-sm font-medium mb-1">
               Nome
@@ -52,7 +52,7 @@ const Contact = () => {
         {/* Links de Redes Sociais */}
         <div className="text-center">
           <p className="text-lg mb-4">Siga-me nas redes sociais:</p>
-          <div className="flex justify-center space-x-4">
+          <div className="flex flex-wrap justify-center space-x-4">
             <a
               href="https://twitter.com/seu-usuario"
               target="_blank"

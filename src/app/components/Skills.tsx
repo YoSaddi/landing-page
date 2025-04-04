@@ -2,10 +2,10 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaDatabase, FaGitAlt, FaMobi
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-gray-100 text-gray-800 p-10">
+    <section id="skills" className="bg-gray-100 text-gray-800 p-5 sm:p-10">
       <h2 className="text-3xl font-bold text-center mb-8">Minhas Habilidades</h2>
       <div className="mx-auto flex flex-row items-center justify-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Soft Skills */}
           <div>
             <h3 className="text-2xl font-bold mb-4">Soft Skills</h3>
