@@ -9,7 +9,7 @@ const Hero = () => {
           />
           <h1 className="text-5xl font-bold mb-4">Olá, eu sou Freedson Brusaca</h1>
           <p className="text-xl mb-6">
-            Desenvolvedor Web apaixonado por criar interfaces incríveis e experiências digitais impactantes.
+            Desenvolvedor Web e Mobile apaixonado por criar interfaces incríveis e experiências digitais impactantes.
           </p>
           <a
             href="#projects"

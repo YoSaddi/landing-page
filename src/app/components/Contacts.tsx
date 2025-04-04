@@ -15,7 +15,7 @@ const Contact = () => {
             <input
               type="text"
               id="name"
-              className="w-full p-2 rounded-lg border-gray-300 focus:ring focus:ring-blue-500"
+              className="w-full p-2 rounded-lg border border-white focus:ring focus:ring-blue-500"
               placeholder="Seu nome"
             />
           </div>
@@ -26,7 +26,7 @@ const Contact = () => {
             <input
               type="email"
               id="email"
-              className="w-full p-2 rounded-lg border-gray-300 focus:ring focus:ring-blue-500"
+              className="w-full p-2 rounded-lg border border-white focus:ring focus:ring-blue-500"
               placeholder="Seu email"
             />
           </div>
@@ -36,7 +36,7 @@ const Contact = () => {
             </label>
             <textarea
               id="message"
-              className="w-full p-2 rounded-lg border-gray-300 focus:ring focus:ring-blue-500"
+              className="w-full p-2 rounded-lg border border-white focus:ring focus:ring-blue-500"
               rows={4}
               placeholder="Sua mensagem"
             ></textarea>

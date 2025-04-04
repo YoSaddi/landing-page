@@ -21,6 +21,11 @@ interface Project {
         description: "API RESTful para um sistema de inventário usando Express.js e MongoDB.",
         link: "https://github.com/seu-usuario/projeto-3",
       },
+      {
+        title: "Projeto 4",
+        description: "Aplicativo mobile desenvolvido com React Native para rastreamento de hábitos.",
+        link: "https://github.com/seu-usuario/projeto-4",
+      },
     ];
   
     return (
