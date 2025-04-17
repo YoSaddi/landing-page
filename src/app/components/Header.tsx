@@ -7,7 +7,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-gray-800 text-white">
+    <header className="bg-pink-400 text-white">
       <div className="container mx-auto flex justify-between items-center p-5">
         <h1 className="text-3xl font-bold">Meu Portfólio</h1>
         <button
@@ -26,6 +26,11 @@ const Header = () => {
             <li>
               <a href="#hero" className="hover:text-gray-300 block py-2 px-4">
                 Início
+              </a>
+            </li>
+            <li>
+              <a href="#sobre" className="hover:text-gray-300 block py-2 px-4">
+                Sobre
               </a>
             </li>
             <li>

@@ -2,7 +2,7 @@ import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-gray-900 text-white py-10">
+    <section id="contact" className="bg-purple-600 text-white py-10">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">Entre em Contato</h2>
         
@@ -43,7 +43,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition"
+            className="bg-pink-500 text-white px-6 py-3 rounded-lg hover:bg-pink-300 transition"
           >
             Enviar
           </button>
